@@ -13,7 +13,7 @@ The **Blackshield Knight** is the standard-bearer of [Blackshield Company](https
 | `preview.png` | 1152×1872 | Contact sheet, all 9 states × 6 frames |
 | `closeup.png` | 768×832 | The money shot |
 | `banner.png` | 3520×688 | Idle row ×3, profile-ready banner on matte black |
-| `banner-animated.gif` | 3520×688 | The banner, alive — idle loop with blade gleam, 8 frames, loops forever |
+| `knight-card.gif` | 2048×2176 | The knight, framed — animated heraldic card: steel ring, dark gradient, idle loop with blade gleam. Built for profile READMEs, display ~500px |
 
 ### Animation Rows (6 frames each)
 
