@@ -32,11 +32,11 @@ STEEL = (143, 149, 156, 255)
 BONE = (216, 211, 200, 255)
 BLOOD = (193, 18, 31, 255)
 BLOOD_DK = (106, 12, 20, 255)
-EMBER = (224, 122, 47, 255)
-EMBER_DK = (160, 72, 24, 255)
+EMBER = (193, 18, 31, 255)       # plume — same blood as the cross
+EMBER_DK = (106, 12, 20, 255)
 FIELD = (16, 16, 20, 255)
-VISOR = (240, 160, 64, 255)
-VISOR_DIM = (140, 72, 28, 255)
+VISOR = (220, 36, 48, 255)       # lit blood, not ember
+VISOR_DIM = (122, 14, 22, 255)
 
 
 def new():
@@ -167,7 +167,7 @@ def draw_sword(angle):
 def draw_body(plume_dx=0, visor="on", legs="stand", lean=0, stars=None):
     im = new()
     d = ImageDraw.Draw(im)
-    # plume — ember, not a flat rectangle
+    # plume — blood, same red as the cross
     px = 46 + plume_dx
     rect(d, px, 4, px + 4, 8, EMBER)
     rect(d, px - 1, 7, px + 5, 11, EMBER)
@@ -411,7 +411,7 @@ def write_pet(atlas):
     (HERMES_PET / "pet.json").write_text(json.dumps({
         "id": "blackshield-knight",
         "displayName": "Blackshield Knight",
-        "description": "Sworn knight of the obsidian watch. Black heater, iron cross, ember plume. Zero retreat.",
+        "description": "Sworn knight of the obsidian watch. Black heater, iron cross, blood plume. Zero retreat.",
         "spritesheetPath": "spritesheet.webp",
         "createdBy": "generator",
     }, indent=2) + "\n", encoding="utf-8")

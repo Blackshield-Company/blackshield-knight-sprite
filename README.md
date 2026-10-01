@@ -1,6 +1,6 @@
 # ⚫ Blackshield Knight — Sprite Atlas
 
-> *A sworn knight of the obsidian watch. Black heater, iron cross, ember plume, zero retreat.*
+> *A sworn knight of the obsidian watch. Black heater, iron cross, blood plume, zero retreat.*
 
 The **Blackshield Knight** is the standard-bearer of [Blackshield Company](https://github.com/Blackshield-Company) — the digital mercenary that stands between your data and the dark.
 
@@ -36,8 +36,7 @@ The **Blackshield Knight** is the standard-bearer of [Blackshield Company](https
 | `K` | `#1B1F28` | Armor black |
 | `S` | `#8FA3BD` | Steel rim |
 | `s` | `#DCE5F2` | Bright steel / blade |
-| `E` / `e` | `#E07A2F` / `#A04818` | Ember plume |
-| `R` / `r` | `#C1121F` / `#6A0C14` | Blood. The iron cross, and the tabard. |
+| `R` / `r` | `#C1121F` / `#6A0C14` | Blood. The iron cross, the plume, the visor, the tabard. |
 | `B` | `#101014` | Shield field |
 | `W` | `#F2F6FC` | Gleam white |
 
