@@ -2,7 +2,7 @@
 
 > *A sworn knight of the obsidian watch. Black heater, iron cross, blood plume, zero retreat.*
 
-The **Blackshield Knight** is the standard-bearer of [Blackshield Company](https://github.com/Blackshield-Company) — the digital mercenary that stands between your data and the dark.
+The **Blackshield Knight** is the standard-bearer of [Blackshield Company](https://github.com/synthalorian) — the digital mercenary that stands between your data and the dark.
 
 ## The Atlas
 
